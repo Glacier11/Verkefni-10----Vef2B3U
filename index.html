@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <meta charset="utf-8">
+  <style>
+  	#drag {
+  		float: left;
+  		margin: 5px;
+  		background-color: white;
+  		border-style: solid;
+  		border-color: black;
+	}
+	#cards{
+		float:left;
+		width: 100%;
+		background-color: white;
+	}
+    #map {
+	    height: 400px;
+	    width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<h3>Earthquakes In Iceland</h3>
+<h5>Þetta sýnir jarðskjálfta á íslandi. Ef þú klikkar á einhvern stað sérðu upplýsingar um þann jarðskjálfta. þú færð líka glugga niðri þannig að þú getur interactað við jarðskjálftana til að læra meira um þá</h5>
+<div id="map"></div>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWYgirQflgurkrBodL6zPVRQf_Vb9Rl_o&callback=initMap">
+</script>
+
+<script src="script.js"></script>
+
+<div id="cards"></div>
+
+
+</body>
+</html>
